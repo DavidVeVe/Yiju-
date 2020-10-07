@@ -1,0 +1,55 @@
+.banner {
+  background-color: $color-primary;
+  padding: 42px 0;
+  .banner__container {
+    .header__col {
+      display: flex;
+      justify-content: space-around;
+      nav {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        .menu-item {
+          margin-right: 17px;
+          a {
+            color: $color-forth;
+            font-family: $font-tafel-s;
+            font-size: 14px;
+            letter-spacing: 0;
+            line-height: 20px;
+          }
+        }
+      }
+      .header__whatsapp {
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(0deg, #009500 0%, #77d128 100%);
+        position: relative;
+        right: -13%;
+        border-radius: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 22px;
+        .header__wa-icon {
+          width: 22px;
+          height: 22px;
+          background-size: cover;
+          background-position: center;
+        }
+        p {
+          color: $color-white;
+          font-family: $font-tafel-s;
+          font-size: 17px;
+          font-weight: bold;
+          letter-spacing: 0;
+          line-height: 18px;
+          text-align: center;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

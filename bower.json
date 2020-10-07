@@ -1,13 +1,12 @@
 {
   "name": "sage",
   "homepage": "https://roots.io/sage/",
-  "authors": [
-    "Ben Word <ben@benword.com>"
-  ],
+  "authors": ["Ben Word <ben@benword.com>"],
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "3.3.6"
+    "bootstrap-sass": "3.3.6",
+    "owl.carousel": "^2.3.4"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -30,6 +29,15 @@
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+      ]
+    },
+    "owl.carousel": {
+      "main": [
+        "./dist/owl.carousel.js",
+        "./dist/assets/owl.carousel.css",
+        "./dist/assets/ajax-loader.gif",
+        "./dist/assets/owl.theme.default.css",
+        "./dist/assets/owl.video.play.png"
       ]
     }
   }

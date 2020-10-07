@@ -1,0 +1,126 @@
+.hero {
+  background-color: $color-primary;
+  .hero__col {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .hero__logo {
+      width: 120px;
+      height: 60px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .hero__text {
+      h2 {
+        color: $color-fifth;
+        font-family: $font-moranga;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 46px;
+        text-align: center;
+      }
+      p {
+        color: $color-sixth;
+        font-family: $font-tafel-s;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 18px;
+        text-align: center;
+        margin: 5px;
+      }
+    }
+  }
+}
+
+.about {
+  background-color: $color-secondary;
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+  .about__col {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .about__background {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      img {
+        position: absolute;
+        top: -2%;
+        right: 9%;
+      }
+    }
+    .about__stars {
+      display: flex;
+      justify-content: space-evenly;
+      width: 22%;
+    }
+    h2 {
+      color: $color-fifth;
+      font-family: $font-moranga;
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 46px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    p {
+      width: 50%;
+      text-align: justify;
+      color: $color-sixth;
+      font-family: $font-tafel-s;
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 18px;
+      margin: 5px;
+    }
+    .about__stamp {
+      margin-top: 20px;
+    }
+  }
+}
+
+.hero__ig-slider {
+  background-color: $color-tertiary;
+  .hero__slider-col {
+    .owl-one {
+      .owl-stage-outer {
+        .owl-stage {
+          .owl-item {
+            .slider__one-img {
+              width: 353px;
+              height: 353px;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hero__slider-col2 {
+    display: flex;
+    .owl-two {
+      .owl-stage-outer {
+        .owl-stage {
+          .owl-item {
+            .slider__one-img {
+              width: 319px;
+              height: 461px;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      }
+    }
+  }
+}
