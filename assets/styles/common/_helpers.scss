@@ -23,6 +23,10 @@
     "Helvetica Neue", Arial, sans-serif;
 }
 
+.float-r {
+  float: right;
+}
+
 .bg-red {
   background-color: $brand-red;
 }
@@ -481,6 +485,14 @@
 .py-64 {
   padding-top: 16rem;
   padding-bottom: 16rem;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
 }
 
 .px-0 {

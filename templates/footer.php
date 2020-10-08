@@ -1,5 +1,7 @@
-<footer class="content-info footer__container" >
+<footer class="content-info footer__container" style="overflow: hidden;">
   <img src="<?php echo get_template_directory_uri(); ?>/dist/images/Branding/background_footer.svg')" class="footer__texture">
+  <img src="<?php echo get_template_directory_uri(); ?>/dist/images/Branding/icon_circles.svg" alt="" class="footer__texture2">
+  <img src="<?php echo get_template_directory_uri(); ?>/dist/images/Circles.svg" alt="" class="footer__texture3">
   <div class="container-fluid p-0">
     <div class="col-md-5 col-md-offset-1 footer__col" >
       <a href="/">

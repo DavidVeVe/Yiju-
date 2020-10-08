@@ -26,8 +26,10 @@
         align-items: center;
         justify-content: space-evenly;
         background: linear-gradient(0deg, #009500 0%, #77d128 100%);
-        position: relative;
-        right: -13%;
+        position: fixed;
+        right: 12%;
+        top: 36px;
+        z-index: 100;
         border-radius: 40px;
         padding-top: 10px;
         padding-bottom: 10px;

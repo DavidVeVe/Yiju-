@@ -1,0 +1,61 @@
+.encuentranos__hero {
+  background-color: $color-primary;
+  .col-md-6 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 80px !important;
+    h2 {
+      color: $color-fifth;
+      font-family: $font-moranga;
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 46px;
+      text-align: center;
+    }
+    p {
+      color: #4d4d4d;
+      font-family: $font-tafel-s;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 18px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+}
+.encuentranos__maps {
+  background-color: $color-primary;
+  padding-bottom: 50px;
+  .maps__gallery {
+    margin-bottom: 30px;
+    .map__gallery-map {
+      width: 100%;
+      height: 500px;
+      border-radius: 20px;
+    }
+  }
+  .maps__gallery-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding-left: 20px;
+    p {
+      cursor: pointer;
+      color: #525252;
+      font-family: $font-moranga;
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 26px;
+    }
+    p.tns-nav-active {
+      font-weight: bold;
+      border-bottom: 3px solid $color-fifth;
+      font-size: 19px;
+      //   padding-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.nosotros__hero {
+  background-color: $color-primary;
+  padding-bottom: 50px !important;
+  .nosotros__hero-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    .nosotros__logo {
+      margin-bottom: 30px;
+    }
+    .nosotros__video-a {
+      width: 100%;
+      height: 506px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+      .nosotros__video {
+      }
+    }
+  }
+}
+.nosotros__familia {
+  padding-top: 50px !important;
+  padding-bottom: 25px !important;
+  background-color: $color-primary;
+  .nosotros__familia-text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    img {
+      margin-bottom: 35px;
+    }
+    p {
+      width: 73%;
+      color: #525252;
+      font-family: $font-tafel-s;
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 20px;
+      text-align: justify;
+    }
+  }
+}
+
+.nosotros__invite {
+  background-color: $color-primary;
+  padding-bottom: 100px !important;
+  .nosotros__invite-images {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 80px !important;
+    .nosotros__productos-image {
+      margin-top: -157px;
+    }
+    .nosotros__invite-sello {
+      margin-top: -209px;
+    }
+  }
+
+  .nosotros__invite-text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 110px;
+    h2 {
+      color: $color-fifth;
+      font-family: $font-moranga;
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 40px;
+    }
+    p {
+      color: #525252;
+      font-family: $font-tafel-s;
+      font-size: 13px;
+      letter-spacing: 0;
+      line-height: 18px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    a {
+      width: 180px;
+      height: 45px;
+      color: #ffffff;
+      font-family: "Tafel Sans";
+      font-size: 17px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 18px;
+      text-align: center;
+      background-color: #78ded4;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .nosotros__values-text {
+    padding-left: 70px;
+    h3 {
+      color: $color-fifth;
+      font-family: $font-moranga;
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 40px;
+    }
+    p  {
+      color: #525252;
+      font-family: $font-tafel-s;
+      font-size: 13px;
+      letter-spacing: 0;
+      line-height: 18px;
+      text-align: justify;
+    }
+  }
+
+  .nosotros__values-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 120px;
+  }
+}

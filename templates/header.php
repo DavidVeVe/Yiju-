@@ -1,6 +1,6 @@
-<header class="banner">
+<header class="banner" style="overflow: hidden;">
   <div class="container banner__container">
-    <div class="col-md-9 col-md-offset-3 header__col">
+    <div class="col-md-8 col-md-offset-2 header__col">
       <nav class="nav-primary">
         <?php
         if (has_nav_menu('primary_navigation')) :
