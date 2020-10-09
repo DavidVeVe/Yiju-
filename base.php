@@ -35,6 +35,7 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/footer');
       wp_footer();
     ?>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script
       src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

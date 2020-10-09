@@ -59,7 +59,14 @@
         if (body.classList.contains("productos")) {
           footer.style.backgroundColor = "#fffcf1";
         }
-
+      },
+      finalize: function () {
+        // JavaScript to be fired on all pages, after page specific JS is fired
+      },
+    },
+    // Home page
+    home: {
+      init: function () {
         $(".owl-one").owlCarousel({
           items: 1,
           margin: 23,
@@ -78,60 +85,65 @@
           dots: true,
         });
 
-        // tns({
-        //   container: ".owl-three",
-        //   mode: "gallery",
-        //   autoplay: false,
-        //   items: 1,
-        //   speed: 500,
-        //   navContainer: ".owl-three-nav",
-        //   controls: false,
-        //   nested: "outer",
-        //   loop: false,
-        // });
+        tns({
+          container: ".owl-three",
+          mode: "gallery",
+          autoplay: false,
+          items: 1,
+          speed: 500,
+          navContainer: ".owl-three-nav",
+          controls: false,
+          nested: "outer",
+          loop: false,
+        });
 
-        // tns({
-        //   container: "#owl-three-inner-paletas",
-        //   autoplay: false,
-        //   speed: 500,
-        //   loop: true,
-        //   nested: "inner",
-        //   prevButton: ".left__arrow-paletas",
-        //   nextButton: ".right__arrow-paletas",
-        //   dots: false,
-        //   gutter: 20,
-        //   nav: true,
-        //   autoWidth: true,
-        // });
-        // tns({
-        //   container: "#owl-three-inner-bolis",
-        //   autoplay: false,
-        //   speed: 500,
-        //   loop: true,
-        //   nested: "inner",
-        //   dots: false,
-        //   nav: true,
-        //   autoWidth: true,
-        // });
-        // tns({
-        //   container: "#owl-three-inner-helados",
-        //   autoplay: false,
-        //   speed: 500,
-        //   loop: true,
-        //   nested: "inner",
-        //   dots: false,
-        //   nav: true,
-        //   autoWidth: true,
-        // });
-      },
-      finalize: function () {
-        // JavaScript to be fired on all pages, after page specific JS is fired
-      },
-    },
-    // Home page
-    home: {
-      init: function () {
-        // JavaScript to be fired on the home page
+        $(".slider-paletas").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: ".slider-paletas-nav",
+          infinite: true,
+        });
+        $(".slider-paletas-nav").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: ".slider-paletas",
+          focusOnSelect: true,
+          infinite: true,
+        });
+
+        $(".slider-bolis").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: ".slider-bolis-nav",
+          infinite: true,
+        });
+        $(".slider-bolis-nav").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: ".slider-bolis",
+          focusOnSelect: true,
+          infinite: true,
+        });
+
+        $(".slider-helados").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: ".slider-helados-nav",
+          infinite: true,
+        });
+        $(".slider-helados-nav").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: ".slider-helados",
+          focusOnSelect: true,
+          infinite: true,
+        });
       },
       finalize: function () {
         // JavaScript to be fired on the home page, after the init JS
