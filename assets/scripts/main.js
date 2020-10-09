@@ -205,21 +205,291 @@
           container: "map-cdmx",
           style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
           center: [-99.1269, 19.4978], // starting position [lng, lat]
-          zoom: 9, // starting zoom
+          zoom: 11, // starting zoom
+        });
+
+        cdmxMap.on("load", function () {
+          cdmxMap.loadImage(
+            "../../wp-content/themes/yiju/dist/images/Icon/icon_pointer-01.png",
+            function (error, image) {
+              if (error) throw error;
+              cdmxMap.addImage("custom-marker", image);
+
+              cdmxMap.addSource("places", {
+                type: "geojson",
+                data: {
+                  type: "FeatureCollection",
+                  features: [
+                    {
+                      type: "Feature",
+                      properties: {
+                        description:
+                          "<strong>Make it Mount Pleasant</strong><p>Make it Mount Pleasant is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+                      },
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-99.2014233, 19.3909868],
+                      },
+                    },
+                    {
+                      type: "Feature",
+                      properties: {
+                        description:
+                          "<strong>Make it Mount Pleasant</strong><p>Make it Mount Pleasant is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+                      },
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-99.2005473, 19.3918029],
+                      },
+                    },
+                  ],
+                },
+              });
+
+              // Add a layer showing the places.
+              cdmxMap.addLayer({
+                id: "places",
+                type: "symbol",
+                source: "places",
+                layout: {
+                  "icon-image": "custom-marker",
+                  "icon-allow-overlap": true,
+                  "icon-size": 0.3,
+                },
+              });
+            }
+          );
+
+          // Create a popup, but don't add it to the map yet.
+          var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false,
+          });
+
+          cdmxMap.on("mouseenter", "places", function (e) {
+            // Change the cursor style as a UI indicator.
+            cdmxMap.getCanvas().style.cursor = "pointer";
+
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            // Populate the popup and set its coordinates
+            // based on the feature found.
+            popup.setLngLat(coordinates).setHTML(description).addTo(cdmxMap);
+          });
+
+          cdmxMap.on("mouseleave", "places", function () {
+            cdmxMap.getCanvas().style.cursor = "";
+            popup.remove();
+          });
+
+          cdmxMap.on("click", "places", function (e) {
+            cdmxMap.flyTo({
+              center: e.features[0].geometry.coordinates,
+              zoom: 13,
+            });
+          });
         });
 
         var michMap = new mapboxgl.Map({
           container: "map-michoacan",
           style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
           center: [-102.0470391, 19.4170456], // starting position [lng, lat]
-          zoom: 9, // starting zoom
+          zoom: 11, // starting zoom
+        });
+
+        michMap.on("load", function () {
+          michMap.loadImage(
+            "../../wp-content/themes/yiju/dist/images/Icon/icon_pointer-01.png",
+            function (error, image) {
+              if (error) throw error;
+              michMap.addImage("custom-marker", image);
+
+              michMap.addSource("places", {
+                type: "geojson",
+                data: {
+                  type: "FeatureCollection",
+                  features: [
+                    {
+                      type: "Feature",
+                      properties: {
+                        description:
+                          "<strong>Make it Mount Pleasant</strong><p>Make it Mount Pleasant is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+                      },
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-102.0593373, 19.4124398],
+                      },
+                    },
+                    {
+                      type: "Feature",
+                      properties: {
+                        description:
+                          "<strong>Make it Mount Pleasant</strong><p>Make it Mount Pleasant is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+                      },
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-102.079733, 19.4239057],
+                      },
+                    },
+                  ],
+                },
+              });
+
+              // Add a layer showing the places.
+              michMap.addLayer({
+                id: "places",
+                type: "symbol",
+                source: "places",
+                layout: {
+                  "icon-image": "custom-marker",
+                  "icon-allow-overlap": true,
+                  "icon-size": 0.3,
+                },
+              });
+            }
+          );
+
+          // Create a popup, but don't add it to the map yet.
+          var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false,
+          });
+
+          michMap.on("mouseenter", "places", function (e) {
+            // Change the cursor style as a UI indicator.
+            michMap.getCanvas().style.cursor = "pointer";
+
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            // Populate the popup and set its coordinates
+            // based on the feature found.
+            popup.setLngLat(coordinates).setHTML(description).addTo(michMap);
+          });
+
+          michMap.on("mouseleave", "places", function () {
+            michMap.getCanvas().style.cursor = "";
+            popup.remove();
+          });
+
+          michMap.on("click", "places", function (e) {
+            michMap.flyTo({
+              center: e.features[0].geometry.coordinates,
+              zoom: 13,
+            });
+          });
         });
 
         var gdlMap = new mapboxgl.Map({
           container: "map-gdl",
           style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
           center: [-103.3940168, 20.6837092], // starting position [lng, lat]
-          zoom: 9, // starting zoom
+          zoom: 11, // starting zoom
+        });
+
+        gdlMap.on("load", function () {
+          gdlMap.loadImage(
+            "../../wp-content/themes/yiju/dist/images/Icon/icon_pointer-01.png",
+            function (error, image) {
+              if (error) throw error;
+              gdlMap.addImage("custom-marker", image);
+
+              gdlMap.addSource("places", {
+                type: "geojson",
+                data: {
+                  type: "FeatureCollection",
+                  features: [
+                    {
+                      type: "Feature",
+                      properties: {
+                        description:
+                          "<strong>Make it Mount Pleasant</strong><p>Make it Mount Pleasant is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+                      },
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-103.4054535, 20.6737777],
+                      },
+                    },
+                    {
+                      type: "Feature",
+                      properties: {
+                        description:
+                          "<strong>Make it Mount Pleasant</strong><p>Make it Mount Pleasant is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
+                      },
+                      geometry: {
+                        type: "Point",
+                        coordinates: [-103.4093672, 20.6749417],
+                      },
+                    },
+                  ],
+                },
+              });
+
+              // Add a layer showing the places.
+              gdlMap.addLayer({
+                id: "places",
+                type: "symbol",
+                source: "places",
+                layout: {
+                  "icon-image": "custom-marker",
+                  "icon-allow-overlap": true,
+                  "icon-size": 0.3,
+                },
+              });
+            }
+          );
+
+          // Create a popup, but don't add it to the map yet.
+          var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false,
+          });
+
+          gdlMap.on("mouseenter", "places", function (e) {
+            // Change the cursor style as a UI indicator.
+            gdlMap.getCanvas().style.cursor = "pointer";
+
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            // Populate the popup and set its coordinates
+            // based on the feature found.
+            popup.setLngLat(coordinates).setHTML(description).addTo(gdlMap);
+          });
+
+          gdlMap.on("mouseleave", "places", function () {
+            gdlMap.getCanvas().style.cursor = "";
+            popup.remove();
+          });
+
+          gdlMap.on("click", "places", function (e) {
+            gdlMap.flyTo({
+              center: e.features[0].geometry.coordinates,
+              zoom: 13,
+            });
+          });
         });
       },
     },

@@ -20,9 +20,204 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="maps__gallery">
-        <div class="map__gallery-map" id="map-cdmx"></div>
-        <div class="map__gallery-map" id="map-michoacan"></div>
-        <div class="map__gallery-map" id="map-gdl"></div>
+        <div class="map__gallery-map" id="map-cdmx">
+          <div class="map__addresses">
+            <div class="map__addresses-wrapper">
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map__gallery-map" id="map-michoacan">
+          <div class="map__addresses">
+            <div class="map__addresses-wrapper">
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map__gallery-map" id="map-gdl">
+          <div class="map__addresses">
+            <div class="map__addresses-wrapper">
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+              <div class="map__address">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_pointer.svg"
+                  alt=""
+                  class="map__address-pointer"
+                />
+                <div class="map__address-info">
+                  <h4>Espacio libre</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
+                    et.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="maps__gallery-nav">
         <p>Ciudad de México</p>
