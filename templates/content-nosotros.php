@@ -72,7 +72,7 @@
         <div class="col-md-6 col-md-offset-3 nosotros__invite-text">
           <h2>¿Quiere formar parte de esta familia?</h2>
           <p>Conozca nuestro plan de contrataciones y venta de franquicias.</p>
-          <a href="">Contactar</a>
+          <a href="/unete/#contact-form">Contactar</a>
         </div>
       </div>
       <div class="row">

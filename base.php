@@ -17,8 +17,9 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
-    ?>
+      ?>
     <div class="wrap container-fluid p-0" role="document" style="overflow: hidden;">
+      <img src="<?php echo get_template_directory_uri(); ?>/dist/images/Icon/Texture_circle.svg" alt="" class="encuentranos__texture">
       <div class="content row">
         <main class="main" style="overflow: hidden;">
           <?php include Wrapper\template_path(); ?>

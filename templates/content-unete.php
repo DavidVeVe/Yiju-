@@ -37,7 +37,7 @@
     </div>
 </div>
 
-<div class="continer-fluid p-0 contact__form">
+<div class="continer-fluid p-0 contact__form" id="contact-form">
   <div class="row">
     <h2>Comienza a vender YIJU!<br />Déjanos tus datos</h2>
   </div>

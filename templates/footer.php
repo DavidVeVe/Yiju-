@@ -8,8 +8,8 @@
       <img src="<?php echo get_template_directory_uri(); ?>/dist/images/Branding/IGP_yiju_blanco.svg')" alt="" class="footer__logo">
     </a>
       <div class="footer__social-media">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_fb.svg')" class="footer__icon"></a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_ig.svg')" class="footer__icon"></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_fb.svg')" class="footer__icon footer__fb"></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/Icon/icon_ig.svg')" class="footer__icon footer__ig"></a>
       </div>
       <ul class="footer__menu">
         <li><a href="/productos">Productos</a></li>

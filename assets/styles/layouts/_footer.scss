@@ -62,6 +62,12 @@
         background-repeat: no-repeat;
         margin: 0 10px;
       }
+      .footer__fb:hover {
+        background-image: url("../../dist/images/Icon/icon_fb_hover.svg") !important;
+      }
+      .footer__ig:hover {
+        background-image: url("../../dist/images/Icon/icon_ig_hover.svg") !important;
+      }
     }
     .terms {
       a:first-child {

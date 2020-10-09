@@ -9,6 +9,7 @@
             </div>
             <div class="hero__images">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/images/esquimal.png" alt="" class="img-responsive hero__esquimal">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/Yiju_img_home_whatsapp.png" alt="" class="hero__cta">
             </div>
         </div>
     </div>

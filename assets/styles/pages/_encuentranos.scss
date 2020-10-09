@@ -5,6 +5,10 @@
     flex-flow: column;
     align-items: center;
     padding-bottom: 80px !important;
+    .encuentranos__logo {
+      position: relative;
+      z-index: 10;
+    }
     h2 {
       color: $color-fifth;
       font-family: $font-moranga;
@@ -29,6 +33,8 @@
 .encuentranos__maps {
   background-color: $color-primary;
   padding-bottom: 50px;
+  position: relative;
+  z-index: 10;
   .maps__gallery {
     margin-bottom: 30px;
     .map__gallery-map {
@@ -113,4 +119,13 @@
 .mapboxgl-map {
   overflow: unset !important;
   border-radius: 20px !important;
+}
+
+.encuentranos__texture {
+  position: absolute;
+  z-index: 5;
+  width: 65%;
+  top: -25%;
+  left: 17.6%;
+  display: none;
 }

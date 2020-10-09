@@ -45,6 +45,10 @@
         var footer = document.querySelector(".footer__container");
         var footerTexture = document.querySelector(".footer__texture2");
         var footerTexture3 = document.querySelector(".footer__texture3");
+        var encuentranosTexture = document.querySelector(
+          ".encuentranos__texture"
+        );
+
         if (body.classList.contains("unete")) {
           footer.style.backgroundColor = "#fffcf1";
           footerTexture3.style.display = "initial";
@@ -55,6 +59,7 @@
         }
         if (body.classList.contains("encuentranos")) {
           footer.style.backgroundColor = "#fffcf1";
+          encuentranosTexture.style.display = "initial";
         }
         if (body.classList.contains("productos")) {
           footer.style.backgroundColor = "#fffcf1";
@@ -74,6 +79,8 @@
           autoWidth: true,
           nav: false,
           dots: false,
+          autoplay: true,
+          autoplayTimeout: 2000,
         });
 
         $(".owl-two").owlCarousel({
@@ -100,10 +107,14 @@
         $(".slider-paletas").slick({
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           fade: true,
           asNavFor: ".slider-paletas-nav",
           infinite: true,
+          prevArrow:
+            "<div type='button' class='slick-prev pull-left arrow-left'></div>",
+          nextArrow:
+            "<div type='button' class='slick-next pull-right arrow-right'></div>",
         });
         $(".slider-paletas-nav").slick({
           slidesToShow: 4,
@@ -111,15 +122,20 @@
           asNavFor: ".slider-paletas",
           focusOnSelect: true,
           infinite: true,
+          arrows: false,
         });
 
         $(".slider-bolis").slick({
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           fade: true,
           asNavFor: ".slider-bolis-nav",
           infinite: true,
+          prevArrow:
+            "<div type='button' class='slick-prev pull-left arrow-left'></div>",
+          nextArrow:
+            "<div type='button' class='slick-next pull-right arrow-right'></div>",
         });
         $(".slider-bolis-nav").slick({
           slidesToShow: 4,
@@ -127,15 +143,20 @@
           asNavFor: ".slider-bolis",
           focusOnSelect: true,
           infinite: true,
+          arrows: false,
         });
 
         $(".slider-helados").slick({
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           fade: true,
           asNavFor: ".slider-helados-nav",
           infinite: true,
+          prevArrow:
+            "<div type='button' class='slick-prev pull-left arrow-left'></div>",
+          nextArrow:
+            "<div type='button' class='slick-next pull-right arrow-right'></div>",
         });
         $(".slider-helados-nav").slick({
           slidesToShow: 4,
@@ -143,6 +164,7 @@
           asNavFor: ".slider-helados",
           focusOnSelect: true,
           infinite: true,
+          arrows: false,
         });
       },
       finalize: function () {
@@ -165,25 +187,67 @@
           });
         });
 
-        tns({
-          container: ".owl-paletas",
-          items: 4,
-          loop: true,
-          gutter: 20,
-          slideBy: 1,
+        $(".productos__paletas-slider").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: true,
+          asNavFor: ".productos__paletas-slider-nav",
+          infinite: true,
+          prevArrow:
+            "<div type='button' class='slick-prev pull-left productos-arrow-left'></div>",
+          nextArrow:
+            "<div type='button' class='slick-next pull-right productos-arrow-right'></div>",
+        });
+        $(".productos__paletas-slider-nav").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          asNavFor: ".productos__paletas-slider",
+          focusOnSelect: true,
+          infinite: true,
+          arrows: false,
         });
 
-        tns({
-          container: ".owl-bolis",
-          items: 1,
-          loop: true,
-          gutter: 20,
+        $(".productos__bolis-slider").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: true,
+          asNavFor: ".productos__bolis-slider-nav",
+          infinite: true,
+          prevArrow:
+            "<div type='button' class='slick-prev pull-left productos-arrow-left'></div>",
+          nextArrow:
+            "<div type='button' class='slick-next pull-right productos-arrow-right'></div>",
+        });
+        $(".productos__bolis-slider-nav").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          asNavFor: ".productos__bolis-slider",
+          focusOnSelect: true,
+          infinite: true,
+          arrows: false,
         });
 
-        tns({
-          container: ".owl-helados",
-          items: 1,
-          gutter: 20,
+        $(".productos__helados-slider").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: true,
+          asNavFor: ".productos__helados-slider-nav",
+          infinite: true,
+          prevArrow:
+            "<div type='button' class='slick-prev pull-left productos-arrow-left'></div>",
+          nextArrow:
+            "<div type='button' class='slick-next pull-right productos-arrow-right'></div>",
+        });
+        $(".productos__helados-slider-nav").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          asNavFor: ".productos__helados-slider",
+          focusOnSelect: true,
+          infinite: true,
+          arrows: false,
         });
 
         var button = document.querySelector("[data-controls='next'");
