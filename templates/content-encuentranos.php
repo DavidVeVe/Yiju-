@@ -20,7 +20,8 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="maps__gallery">
-        <div class="map__gallery-map" id="map-cdmx">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1NahrEqAuWHrNK0GyNsNs2GBrCdwzrfhh" width="100%" height="480"></iframe>
+        <!-- <div class="map__gallery-map" id="map-cdmx">
           <div class="map__addresses">
             <div class="map__addresses-wrapper">
               <div class="map__address">
@@ -217,12 +218,15 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="maps__gallery-nav">
+      <p class="maps__gallery-nav-title">Vendemos principalmente en estas ciudades</p>
+      <div class="ciudades">
         <p>Ciudad de México</p>
-        <p>Michoacán</p>
         <p>Guadalajara</p>
+        <p>Michoacán</p>
+      </div>
       </div>
     </div>
   </div>

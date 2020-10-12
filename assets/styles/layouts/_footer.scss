@@ -2,6 +2,7 @@
   height: 467px;
   background-color: $color-tertiary2;
   position: relative;
+  z-index: 50;
   .container-fluid {
     height: 100%;
     display: flex;
@@ -79,5 +80,27 @@
         padding: 0 5px;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__texture {
+    left: -50% !important;
+    transform: scale(1.5);
+  }
+  .footer__menu {
+    flex-flow: column;
+    align-items: center;
+    margin: 25px 0;
+    li {
+      margin-bottom: 20px !important;
+    }
+  }
+  .footer__col {
+    padding-top: 67px !important;
+  }
+  .footer__texture2,
+  .footer__texture3 {
+    display: none !important;
   }
 }

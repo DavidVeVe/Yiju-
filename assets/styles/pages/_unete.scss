@@ -165,9 +165,56 @@
       border: none;
       outline: none;
       color: $color-white;
+      font-family: $font-tafel-s;
+      font-weight: bold;
+      font-size: 17px;
     }
     .ajax-loader {
       display: none;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .unete__logo {
+    display: none;
+  }
+  .unete__images-wrapper {
+    flex-flow: column;
+    align-items: center;
+  }
+  .unete__images-background {
+    border-radius: 150px !important;
+  }
+  .images__reverse {
+    flex-flow: column-reverse;
+  }
+  .images__relative {
+    position: relative;
+    top: -44vh;
+    flex-flow: column-reverse;
+  }
+  .image__relative {
+    position: relative;
+    top: 80%;
+  }
+
+  .contact__form-col {
+    padding: 0 45px !important;
+  }
+
+  .contact__form-col {
+    form {
+      .row {
+        .col-md-6 {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .mail__icon {
+    width: 7% !important;
+    margin-right: 9px;
   }
 }

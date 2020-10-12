@@ -23,14 +23,14 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 col-md-offset-2 unete__images-wrapper">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_06.png" alt="">
+        <div class="col-md-8 col-md-offset-2 unete__images-wrapper images__reverse">
+            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_06.png" alt="" class="image__relative">
             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/Branding/IGP_yiju_verde.svg" alt="" class="unete__images-logo">
             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_03.png" alt="">
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6 col-md-offset-3 unete__images-wrapper">
+        <div class="col-md-6 col-md-offset-3 unete__images-wrapper images__relative">
             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_05.png" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_04.png" alt="">
         </div>

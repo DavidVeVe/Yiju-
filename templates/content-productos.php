@@ -32,11 +32,10 @@
             "
           ></div>
           <div class="item__text">
-            <h3>PALETAS</h3>
-            <h4>Esquimal 100g 1</h4>
+            <h1>CAMPANA</h1>
+            <h2>Campana 143g</h2>
             <p>
-              Paleta helada de crema sabor vainilla con cubierta de chocolate y
-              coco rallado.
+            Gran paleta helada de crema 100% natural, sabor nuez con trozos de nueces reales.
             </p>
           </div>
         </div>
@@ -48,11 +47,10 @@
             "
           ></div>
           <div class="item__text">
-            <h3>PALETAS</h3>
-            <h4>Esquimal 100g 2</h4>
+            <h1>CHEMISE</h1>
+            <h2>Chemise 104g</h2>
             <p>
-              Paleta helada de crema sabor vainilla con cubierta de chocolate y
-              coco rallado.
+              Paleta helada de crema 100% natural, sabor vainilla. Cubierta con helado sabor fresa hecho con fruta natural. 
             </p>
           </div>
         </div>
@@ -64,11 +62,10 @@
             "
           ></div>
           <div class="item__text">
-            <h3>PALETAS</h3>
-            <h4>Esquimal 100g 3</h4>
+            <h1>ESQUIMAL</h1>
+            <h2>Esquimal 100g</h2>
             <p>
-              Paleta helada de crema sabor vainilla con cubierta de chocolate y
-              coco rallado.
+              Paleta helada de crema 100% natural, sabor vainilla. Con una cubierta generosa de chocolate y coco rallado natural.
             </p>
           </div>
         </div>
@@ -80,11 +77,10 @@
             "
           ></div>
           <div class="item__text">
-            <h3>PALETAS</h3>
-            <h4>Esquimal 100g 4</h4>
+            <h1>COCO</h1>
+            <h2>PALETA DE MEDIA CREMA 110g</h2>
             <p>
-              Paleta helada de crema sabor vainilla con cubierta de chocolate y
-              coco rallado.
+              Paleta helada a base de media crema 100 % natural, frutas naturales y cereales de estación. Sabor coco.
             </p>
           </div>
         </div>
@@ -96,11 +92,9 @@
             "
           ></div>
           <div class="item__text">
-            <h3>PALETAS</h3>
-            <h4>Esquimal 100g 5</h4>
-            <p>
-              Paleta helada de crema sabor vainilla con cubierta de chocolate y
-              coco rallado.
+            <h1>LIMÓN</h1>
+            <h2>PALETA DE LECHE 110g</h2>
+            <p>Paleta helada a base de media crema 100 % natural, frutas y cereales de estación. Sabor limón.
             </p>
           </div>
         </div>
@@ -112,11 +106,10 @@
             "
           ></div>
           <div class="item__text">
-            <h3>PALETAS</h3>
-            <h4>Esquimal 100g 6</h4>
+            <h1>PIÑA</h1>
+            <h2>PALETA DE FRUTA 100g</h2>
             <p>
-              Paleta helada de crema sabor vainilla con cubierta de chocolate y
-              coco rallado.
+              Paleta helada a base de fruta 100 % natural, sabor piña.
             </p>
           </div>
         </div>
@@ -187,8 +180,8 @@
             "
           ></div>
           <div class="item__text item__text-reverse">
-            <h3>Bolis</h3>
-            <h4>Esquimal 100g</h4>
+            <h1>Bolis</h1>
+            <h2>Esquimal 100g</h2>
             <p>
               Paleta helada de crema sabor vainilla con cubierta de chocolate y
               coco rallado.
@@ -203,8 +196,8 @@
             "
           ></div>
           <div class="item__text item__text-reverse">
-            <h3>Helados</h3>
-            <h4>Esquimal 100g</h4>
+            <h1>Helados</h1>
+            <h2>Esquimal 100g</h2>
             <p>
               Paleta helada de crema sabor vainilla con cubierta de chocolate y
               coco rallado.
@@ -219,8 +212,8 @@
             "
           ></div>
           <div class="item__text item__text-reverse">
-            <h3>Bolis</h3>
-            <h4>Esquimal 100g</h4>
+            <h1>Bolis</h1>
+            <h2>Esquimal 100g</h2>
             <p>
               Paleta helada de crema sabor vainilla con cubierta de chocolate y
               coco rallado.
@@ -235,8 +228,8 @@
             "
           ></div>
           <div class="item__text item__text-reverse">
-            <h3>Helados</h3>
-            <h4>Esquimal 100g</h4>
+            <h1>Helados</h1>
+            <h2>Esquimal 100g</h2>
             <p>
               Paleta helada de crema sabor vainilla con cubierta de chocolate y
               coco rallado.
@@ -251,8 +244,8 @@
             "
           ></div>
           <div class="item__text item__text-reverse">
-            <h3>Bolis</h3>
-            <h4>Esquimal 100g</h4>
+            <h1>Bolis</h1>
+            <h2>Esquimal 100g</h2>
             <p>
               Paleta helada de crema sabor vainilla con cubierta de chocolate y
               coco rallado.
@@ -267,8 +260,8 @@
             "
           ></div>
           <div class="item__text item__text-reverse">
-            <h3>Helados</h3>
-            <h4>Esquimal 100g</h4>
+            <h1>Helados</h1>
+            <h2>Esquimal 100g</h2>
             <p>
               Paleta helada de crema sabor vainilla con cubierta de chocolate y
               coco rallado.
@@ -337,15 +330,27 @@
         <div
           class="slider__image"
           style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
+            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg');
           "
         ></div>
         <div class="item__text">
-          <h3>Helados</h3>
-          <h4>Esquimal 100g</h4>
-          <p>
-            Paleta helada de crema sabor vainilla con cubierta de chocolate y
-            coco rallado.
+          <h1>VAINILLA</h1>
+          <h2>CONO 90g</h2>
+          <p>Barquillo con helado de crema, 100 % leche, sabor vainilla y toppings.
+          </p>
+        </div>
+      </div>
+      <div class="productos__item">
+        <div
+          class="slider__image"
+          style="
+            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Helado_Recorte.jpg');
+          "
+        ></div>
+        <div class="item__text">
+          <h1>VAINILLA</h1>
+          <h2>VASO DE HELADO 105g</h2>
+          <p>Vaso con helado suave y cremoso sabor vainilla con mermelada de fresa 100% natural. Hecho con leche 100% de vaca.
           </p>
         </div>
       </div>
@@ -357,59 +362,9 @@
           "
         ></div>
         <div class="item__text">
-          <h3>Helados</h3>
-          <h4>Esquimal 100g</h4>
-          <p>
-            Paleta helada de crema sabor vainilla con cubierta de chocolate y
-            coco rallado.
-          </p>
-        </div>
-      </div>
-      <div class="productos__item">
-        <div
-          class="slider__image"
-          style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
-          "
-        ></div>
-        <div class="item__text">
-          <h3>Helados</h3>
-          <h4>Esquimal 100g</h4>
-          <p>
-            Paleta helada de crema sabor vainilla con cubierta de chocolate y
-            coco rallado.
-          </p>
-        </div>
-      </div>
-      <div class="productos__item">
-        <div
-          class="slider__image"
-          style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
-          "
-        ></div>
-        <div class="item__text">
-          <h3>Helados</h3>
-          <h4>Esquimal 100g</h4>
-          <p>
-            Paleta helada de crema sabor vainilla con cubierta de chocolate y
-            coco rallado.
-          </p>
-        </div>
-      </div>
-      <div class="productos__item">
-        <div
-          class="slider__image"
-          style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
-          "
-        ></div>
-        <div class="item__text">
-          <h3>Helados</h3>
-          <h4>Esquimal 100g</h4>
-          <p>
-            Paleta helada de crema sabor vainilla con cubierta de chocolate y
-            coco rallado.
+          <h1>SÁNDWICH</h1>
+          <h2>Sándwich 105g</h2>
+          <p>Sándwich de helado de crema 100 % natural, sabor vainilla.
           </p>
         </div>
       </div>
@@ -419,7 +374,7 @@
         <div
           class="slider__image-nav"
           style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
+            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg');
           "
         ></div>
       </div>
@@ -427,23 +382,7 @@
         <div
           class="slider__image-nav"
           style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
-          "
-        ></div>
-      </div>
-      <div class="productos__item">
-        <div
-          class="slider__image-nav"
-          style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
-          "
-        ></div>
-      </div>
-      <div class="productos__item">
-        <div
-          class="slider__image-nav"
-          style="
-            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg');
+            background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Helado_Recorte.jpg');
           "
         ></div>
       </div>

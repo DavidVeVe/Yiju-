@@ -123,6 +123,15 @@
           focusOnSelect: true,
           infinite: true,
           arrows: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+          ],
         });
 
         $(".slider-bolis").slick({
@@ -144,6 +153,15 @@
           focusOnSelect: true,
           infinite: true,
           arrows: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+          ],
         });
 
         $(".slider-helados").slick({
@@ -165,6 +183,15 @@
           focusOnSelect: true,
           infinite: true,
           arrows: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+          ],
         });
       },
       finalize: function () {
@@ -206,6 +233,15 @@
           focusOnSelect: true,
           infinite: true,
           arrows: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+          ],
         });
 
         $(".productos__bolis-slider").slick({
@@ -227,6 +263,15 @@
           focusOnSelect: true,
           infinite: true,
           arrows: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+          ],
         });
 
         $(".productos__helados-slider").slick({
@@ -248,6 +293,15 @@
           focusOnSelect: true,
           infinite: true,
           arrows: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+          ],
         });
 
         var button = document.querySelector("[data-controls='next'");
@@ -267,22 +321,22 @@
     },
     encuentranos: {
       init: function () {
-        tns({
-          container: ".maps__gallery",
-          mode: "gallery",
-          navContainer: ".maps__gallery-nav",
-          arrowKeys: false,
-          controls: false,
-        });
+        // tns({
+        //   container: ".maps__gallery",
+        //   mode: "gallery",
+        //   navContainer: ".maps__gallery-nav",
+        //   arrowKeys: false,
+        //   controls: false,
+        // });
 
-        mapboxgl.accessToken =
-          "pk.eyJ1IjoiZGF2aWRhcm1hbmRvIiwiYSI6ImNrY2Ixdnh1YzIxMTczNW9iOWpvM2liNzIifQ.PnNDoVNY-mHai_rYS7KiDQ";
-        var cdmxMap = new mapboxgl.Map({
-          container: "map-cdmx",
-          style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
-          center: [-99.1269, 19.4978], // starting position [lng, lat]
-          zoom: 11, // starting zoom
-        });
+        // mapboxgl.accessToken =
+        //   "pk.eyJ1IjoiZGF2aWRhcm1hbmRvIiwiYSI6ImNrY2Ixdnh1YzIxMTczNW9iOWpvM2liNzIifQ.PnNDoVNY-mHai_rYS7KiDQ";
+        // var cdmxMap = new mapboxgl.Map({
+        //   container: "map-cdmx",
+        //   style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
+        //   center: [-99.1269, 19.4978], // starting position [lng, lat]
+        //   zoom: 11, // starting zoom
+        // });
 
         cdmxMap.on("load", function () {
           cdmxMap.loadImage(
@@ -374,12 +428,12 @@
           });
         });
 
-        var michMap = new mapboxgl.Map({
-          container: "map-michoacan",
-          style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
-          center: [-102.0470391, 19.4170456], // starting position [lng, lat]
-          zoom: 11, // starting zoom
-        });
+        // var michMap = new mapboxgl.Map({
+        //   container: "map-michoacan",
+        //   style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
+        //   center: [-102.0470391, 19.4170456], // starting position [lng, lat]
+        //   zoom: 11, // starting zoom
+        // });
 
         michMap.on("load", function () {
           michMap.loadImage(
@@ -471,12 +525,12 @@
           });
         });
 
-        var gdlMap = new mapboxgl.Map({
-          container: "map-gdl",
-          style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
-          center: [-103.3940168, 20.6837092], // starting position [lng, lat]
-          zoom: 11, // starting zoom
-        });
+        // var gdlMap = new mapboxgl.Map({
+        //   container: "map-gdl",
+        //   style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
+        //   center: [-103.3940168, 20.6837092], // starting position [lng, lat]
+        //   zoom: 11, // starting zoom
+        // });
 
         gdlMap.on("load", function () {
           gdlMap.loadImage(

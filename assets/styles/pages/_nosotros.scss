@@ -54,7 +54,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-bottom: 80px !important;
+    padding-bottom: 80px;
     .nosotros__productos-image {
       margin-top: -157px;
     }
@@ -128,5 +128,54 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     padding-right: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nosotros__logo {
+    display: none;
+  }
+
+  .nosotros__invite-images {
+    padding-bottom: 30px !important;
+  }
+
+  .nosotros__familia-image,
+  .nosotros__productos-image {
+    width: 100%;
+  }
+
+  .nosotros__productos-image {
+    margin-top: -13%;
+  }
+
+  .nosotros__invite-sello {
+    width: 50%;
+    margin-top: -23% !important;
+  }
+
+  .nosotros__invite-text {
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  .nosotros__values-text {
+    padding: 0 40px !important;
+    margin-bottom: 35px;
+    h3 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+  }
+
+  .nosotros__values-icons {
+    padding: 0 !important;
+    justify-content: center !important;
+  }
+
+  .nosotros__hero-col {
+    padding-top: 50px;
   }
 }
