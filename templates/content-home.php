@@ -114,18 +114,12 @@
         <div class="helados__slider">
             <div class="slider-helados current__slide">
                 <div class="hero__slider-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
-                <div class="hero__slider-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
-                <div class="hero__slider-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg')"></div>
-                <div class="hero__slider-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
-                <div class="hero__slider-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
+                <div class="hero__slider-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Helado_Recorte.jpg')"></div>
                 <div class="hero__slider-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg')"></div>
             </div>
             <div class="col-md-12 slider-helados-nav slider__nav">
                 <div class="hero__slider-img-nav" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
-                <div class="hero__slider-img-nav" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
-                <div class="hero__slider-img-nav" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg')"></div>
-                <div class="hero__slider-img-nav" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
-                <div class="hero__slider-img-nav" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Cono_Vainilla_Recorte.jpg')"></div>
+                <div class="hero__slider-img-nav" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Helado_Recorte.jpg')"></div>
                 <div class="hero__slider-img-nav" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/productos/Helados/Yiju_Sandwich_Recorte.jpg')"></div>
             </div>
         </div>
