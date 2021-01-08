@@ -145,6 +145,14 @@
   display: none;
 }
 
+.map__wrapper {
+  height: auto;
+  overflow: hidden;
+  iframe {
+    margin-top: -56px;
+  }
+}
+
 @media (max-width: 768px) {
   .encuentranos__logo {
     display: none;

@@ -39,7 +39,7 @@
       width: 73%;
       color: #525252;
       font-family: $font-tafel-s;
-      font-size: 12px;
+      font-size: 13px;
       letter-spacing: 0;
       line-height: 20px;
       text-align: justify;
@@ -69,6 +69,7 @@
     align-items: center;
     margin-bottom: 110px;
     h2 {
+      text-align: center;
       color: $color-fifth;
       font-family: $font-moranga;
       font-size: 36px;
@@ -79,7 +80,7 @@
     p {
       color: #525252;
       font-family: $font-tafel-s;
-      font-size: 13px;
+      font-size: 14px;
       letter-spacing: 0;
       line-height: 18px;
       text-align: center;
@@ -146,12 +147,12 @@
   }
 
   .nosotros__productos-image {
-    margin-top: -13%;
+    margin-top: -13% !important;
   }
 
   .nosotros__invite-sello {
-    width: 50%;
-    margin-top: -23% !important;
+    width: 41% !important;
+    margin-top: -20% !important;
   }
 
   .nosotros__invite-text {
@@ -177,5 +178,12 @@
 
   .nosotros__hero-col {
     padding-top: 50px;
+  }
+
+  .nosotros__values-card {
+    width: 40%;
+    img {
+      width: 100%;
+    }
   }
 }

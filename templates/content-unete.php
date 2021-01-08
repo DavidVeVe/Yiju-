@@ -8,8 +8,8 @@
           class="unete__logo"
         />
       </a>
-      <h2>¡Conviértase en un distribuidor!</h2>
-      <p><strong>Podrás obtener beneficios</strong></p>
+      <h2>¡Conviértase en distribuidor!</h2>
+      <p><strong>Y obtenga beneficios</strong></p>
     </div>
   </div>
 </div>
@@ -31,7 +31,7 @@
     </div>
     <div class="row">
         <div class="col-md-6 col-md-offset-3 unete__images-wrapper images__relative">
-            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_05.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_05.png" alt="" class="image__5">
             <img src="<?php echo get_template_directory_uri(); ?>/dist/images/infografia_04.png" alt="">
         </div>
     </div>

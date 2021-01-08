@@ -20,7 +20,9 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="maps__gallery">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1NahrEqAuWHrNK0GyNsNs2GBrCdwzrfhh" width="100%" height="480"></iframe>
+        <div class="map__wrapper">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1NahrEqAuWHrNK0GyNsNs2GBrCdwzrfhh" width="100%" height="480" id="iframe"></iframe>
+          </div>
         <!-- <div class="map__gallery-map" id="map-cdmx">
           <div class="map__addresses">
             <div class="map__addresses-wrapper">
